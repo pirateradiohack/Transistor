@@ -1,0 +1,14 @@
+#
+# Configuration file for Transistor
+#
+ROOT_PASSWORD="your_secure_password"
+TIMEZONE="UTC" # enter your timezone here
+
+#your wifi network name (SSID) and password (PSK)
+WLAN_ENABLE="true"
+WLAN_SSID="ssid of your wlan"
+WLAN_PSK="psk of the ssid"
+IP_HOSTNAME="Transistor"
+
+AUDIOHAT="hifiberry-dac"
+SOFTWARE_MIXER_FALLBACK="true"
