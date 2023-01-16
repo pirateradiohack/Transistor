@@ -4,7 +4,8 @@ Build your own radio set and listen to **web radios**.
 
 <img src="assets/pictures/Transistor-3D.jpg" alt=" Transistor 3D printed case." width="600"/>  
 
-All you need to do is copy [the image](https://github.com/pirateradiohack/Transistor/releases/latest) to a micro SD card and insert it in the following hardware:
+All you need to do is copy [the image](https://github.com/pirateradiohack/Transistor/releases/latest) to a micro SD
+card, edit the file called `bootstrap-transistor.txt` to set your wifi, save it to `bootstrap.txt` and insert it in the following hardware:
 
 - [Raspberry Pi Zero W 2](https://shop.pimoroni.com/products/raspberry-pi-zero-2-w?variant=39493046075475)
 - Micro SD card (4GB should be enough if you don't want to store anything on it. If you want to store music or podcasts on your device then the bigger the better.)
@@ -33,7 +34,7 @@ Alternatively you could use your own case, or an old radio, or a cardboard box, 
 ## Quick Setup
 
 - Download the [latest image](https://github.com/pirateradiohack/Transistor/releases/latest), that's the ZIP file named image. Unzip it.
-- Flash the image on a SD card with [etcher](https://www.balena.io/etcher/).
+- Flash the image on a SD card with [etcher](https://www.balena.io/etcher/) or RPI imager.
 - On the SD carc copy the file named `bootstrap-transistor.txt` to `bootstrap.txt` and fill in your wifi details.
 - Install the SD card in your radio and turn it on. (note that the first boot takes some time, be patient)
 - Connect to the web interface: hold the play / pause button and you will see the IP address of the Transistor appear on its screen. Open that IP in your browser.
